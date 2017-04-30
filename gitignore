@@ -10,3 +10,4 @@
 .ruby-version
 .bundle/
 config/database.yml
+node_modules
