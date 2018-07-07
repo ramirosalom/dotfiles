@@ -4,7 +4,9 @@ export ZSH=$HOME/.oh-my-zsh
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(zsh-git-prompt zsh-syntax-highlighting history-substring-search)
+plugins=(zsh-git-prompt zsh-syntax-highlighting history-substring-search tmux)
+
+export ZSH_TMUX_AUTOSTART=true
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.bash_aliases
