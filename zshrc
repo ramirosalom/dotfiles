@@ -7,7 +7,7 @@ export NVM_AUTO_USE=true
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(zsh-git-prompt zsh-syntax-highlighting history-substring-search tmux ng web-search zsh-nvm)
+plugins=(zsh-git-prompt zsh-syntax-highlighting history-substring-search tmux ng web-search zsh-nvm common-aliases)
 
 export ZSH_TMUX_AUTOSTART=true
 
