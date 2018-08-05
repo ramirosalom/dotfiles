@@ -11,7 +11,7 @@ export ZSH_TMUX_AUTOSTART=true
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(zsh-git-prompt zsh-syntax-highlighting history-substring-search zsh-nvm tmux ng web-search common-aliases)
+plugins=(zsh-git-prompt zsh-syntax-highlighting history-substring-search zsh-nvm tmux ng web-search common-aliases zsh-completions)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.bash_aliases
@@ -30,8 +30,8 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$PATH"
 export QT_QPA_PLATFORM=''
 
-fpath=(~/.zsh/completion $fpath)
-autoload -Uz compinit && compinit -i
+# for zsh-completions plugin (it is a bit slow)
+autoload -U compinit && compinit
 
 # Load nvmrc, plugin is not working properly on new splited panels
 autoload -U add-zsh-hook
