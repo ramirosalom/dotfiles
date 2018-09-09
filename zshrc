@@ -18,7 +18,7 @@ source $HOME/.bash_aliases
 
 # User configuration
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$HOME/.local/bin"
 
 export JAVA_HOME="/usr/lib/jvm/java-8-oracle"
 export ANDROID_HOME="$HOME/Android/Sdk"
