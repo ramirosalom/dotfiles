@@ -46,7 +46,7 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
-source /home/cristian/.rvm/scripts/rvm
+source $HOME/.rvm/scripts/rvm
 
 #Es muy lento!!
 #[[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion
